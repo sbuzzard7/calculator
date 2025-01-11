@@ -1,0 +1,168 @@
+/** Body **/
+
+body {
+    background: #2f2f2f;
+}
+
+a {
+    color: #009688;
+    transition: .3s;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px!important;
+}
+
+span.app-title {
+    font-size: 35px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    color: #009688;
+}
+
+.app-header {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    letter-spacing: 4px;
+}
+
+
+/** Body **/
+
+.calculatorArea {
+    margin: 50px 30px 0px 30px;
+    padding: 10px 0px 30px 10px;
+    background: black;
+}
+
+.btn {
+    border-radius: 10px;
+    box-shadow: 3px 4px 25px 0px black;
+    transition: .3s;
+}
+
+.btn:hover {
+    border-radius: 10px;
+    box-shadow: 2px 4px 7px -4px #009688 ;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+
+/** Header **/
+
+.resultArea {
+    background: black;
+    border: 3px solid;
+    border-color: #2f2f2f;
+    height: 80px;
+    font-weight: bold;
+    color: #009688;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 12px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.resultArea-md {
+    font-size: 35px;
+}
+
+.resultArea-sm {
+    font-size: 25px;
+}
+
+.resultArea-xsm {
+    font-size: 16px;
+}
+
+.resultArea-xxsm {
+    font-size: 10px;
+}
+
+
+/** Header **/
+
+
+/*** BODY ***/
+
+.calculator-body-part {
+    height: auto;
+    min-height: 200px;
+    margin-top: 20px;
+}
+
+.top-button {
+    background: #009688;
+    border: 1px solid #009688;
+    width: 19%;
+    margin: 0px 0px 0px 10px;
+}
+
+.top-button:hover {
+    background: #009688;
+    border: 1px solid #009688;
+}
+
+.btn-mem {
+    background: #009688;
+    border: 1px solid #009688;
+    width: 19%;
+    margin: 0px 0px 0px 10px;
+}
+
+.btn-mem:hover {
+    background: #009688;
+    border: 1px solid #009688;
+}
+
+.btn-digit-operation {
+    width: 15%;
+    margin: 0px 0px 0px 10px;
+}
+
+.btn-digit {
+    background: #009688;
+    border: 1px solid #009688;
+}
+
+.btn-digit:hover {
+    background: #009688;
+    border: 1px solid #009688;
+}
+
+.btn-operation {
+    background: #009688;
+    border: 1px solid #009688;
+}
+
+.btn-operation:hover {
+    background: #009688;
+    border: 1px solid #009688;
+}
+
+.btn-equal {
+    background: #009688;
+    border: 1px solid #009688;
+}
+
+.btn-equal:hover {
+    background: #009688;
+    border: 1px solid #009688;
+}
+
+
+/*** BODY ***/
+
+@media (min-width: 768px) {
+    .col-md-5 {
+        flex: 5 0 51.666667%;
+        max-width: 50.666667%;
+    }
+}
